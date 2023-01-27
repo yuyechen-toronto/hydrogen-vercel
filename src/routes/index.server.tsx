@@ -18,8 +18,8 @@ import {
   ProductConnection,
 } from '@shopify/hydrogen/storefront-api-types';
 
-import snowboard from '../snowboard-mobile.jpg';
-import delivery from '../free-delivery.png';
+import snowboard from '~/assets/snowboard-mobile.jpg';
+import delivery from '~/free-delivery.png';
 import {Image} from '@shopify/hydrogen';
 
 
