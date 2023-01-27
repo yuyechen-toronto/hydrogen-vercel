@@ -76,7 +76,7 @@ function HomepageContent() {
       )}
       <Image src={snowboard} width="200" height="100" />
       <Image src={delivery} width="100" height="50" />
-      <Hero />
+      <HeroImage />
       <ProductSwimlane
         data={featuredProducts.nodes}
         title="Featured Products"
