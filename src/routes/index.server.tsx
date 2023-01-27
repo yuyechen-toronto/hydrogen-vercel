@@ -24,6 +24,8 @@ import {Image} from '@shopify/hydrogen';
 
 import {HeroImage} from '~/components/HeroImage.client';
 
+import video from '~/assets/Snowboarding.mp4'
+
 export default function Homepage() {
   useServerAnalytics({
     shopify: {
@@ -76,6 +78,10 @@ function HomepageContent() {
       )}
       <Image src={snowboard} width="200" height="100" />
       <HeroImage />
+      
+      <video src={video} width="750" height="500" controls>
+      </video>
+      
       <ProductSwimlane
         data={featuredProducts.nodes}
         title="Featured Products"
