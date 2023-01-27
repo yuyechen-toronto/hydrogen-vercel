@@ -19,7 +19,7 @@ import {
 } from '@shopify/hydrogen/storefront-api-types';
 
 import snowboard from '~/assets/snowboard-mobile.jpg';
-import delivery from '~/free-delivery.png';
+import delivery from '~/assets/free-delivery.png';
 import {Image} from '@shopify/hydrogen';
 
 import {HeroImage} from '~/components/HeroImage.client';
