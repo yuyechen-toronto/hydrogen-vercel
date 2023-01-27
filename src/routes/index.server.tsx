@@ -80,7 +80,7 @@ function HomepageContent() {
       <HeroImage />
       
       <video width="320" height="240" loop autoPlay>
-        <source src="~/assets/Snowboarding.mp4" type="video/mp4">
+        <source src={video} type="video/mp4" />
        </video>
 
       <ProductSwimlane
