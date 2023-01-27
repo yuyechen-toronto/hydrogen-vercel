@@ -22,7 +22,7 @@ import snowboard from '~/assets/snowboard-mobile.jpg';
 import delivery from '~/free-delivery.png';
 import {Image} from '@shopify/hydrogen';
 
-import {HeroImage} from '~/components/Hero.client';
+import {HeroImage} from '~/components/HeroImage.client';
 
 export default function Homepage() {
   useServerAnalytics({
