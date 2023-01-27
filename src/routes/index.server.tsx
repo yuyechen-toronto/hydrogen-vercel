@@ -18,6 +18,10 @@ import {
   ProductConnection,
 } from '@shopify/hydrogen/storefront-api-types';
 
+import snowboard from '../assets/snowboard-mobile.jpg';
+import {Image} from '@shopify/hydrogen';
+
+
 export default function Homepage() {
   useServerAnalytics({
     shopify: {
@@ -68,6 +72,7 @@ function HomepageContent() {
       {primaryHero && (
         <Hero {...primaryHero} height="full" top loading="eager" />
       )}
+      <Image src={snowboard} width="200" height="100" />;
       <ProductSwimlane
         data={featuredProducts.nodes}
         title="Featured Products"
