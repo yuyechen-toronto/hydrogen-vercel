@@ -18,7 +18,8 @@ import {
   ProductConnection,
 } from '@shopify/hydrogen/storefront-api-types';
 
-import snowboard from '../assets/snowboard-mobile.jpg';
+import snowboard from '../snowboard-mobile.jpg';
+import delivery from '../free-delivery.png';
 import {Image} from '@shopify/hydrogen';
 
 
@@ -72,7 +73,8 @@ function HomepageContent() {
       {primaryHero && (
         <Hero {...primaryHero} height="full" top loading="eager" />
       )}
-      <Image src={snowboard} width="200" height="100" />;
+      <Image src={snowboard} width="200" height="100" />
+      <Image src={delivery} width="100" height="50" />
       <ProductSwimlane
         data={featuredProducts.nodes}
         title="Featured Products"
