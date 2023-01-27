@@ -79,9 +79,10 @@ function HomepageContent() {
       <Image src={snowboard} width="200" height="100" />
       <HeroImage />
       
-      <video src={video} width="750" height="500" controls>
-      </video>
-      
+      <video width="320" height="240" loop autoPlay>
+        <source src={video} type="video/mp4">
+       </video>
+
       <ProductSwimlane
         data={featuredProducts.nodes}
         title="Featured Products"
